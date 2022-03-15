@@ -1,0 +1,19 @@
+{
+  "runtime": "Default",
+  "documentGenerator": {
+    "aspNetCoreToOpenApi": {
+      "project": "NswagGeneration.AspNetCore.csproj",
+      "noBuild": true,
+      "verbose": true,
+      "requireParametersWithoutDefault": false,
+      "useDocumentProvider": true
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpClient": {
+      "namespace": "NswagGeneration.AspNetCore",
+      "useBaseUrl": false,
+      "output": "GeneratedClient.cs"
+    }
+  }
+}
